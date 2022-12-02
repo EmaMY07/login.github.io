@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right bottom,#9900cc,#3333ff); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor{
+    /*margin:50px auto;*/
+    width:400px;
+    padding:30px;
+    background: rgba(0,0,0,.3); /*transparencia*/
+    border-radius: 10px; /*redondear esquinas*/
+}
+.contenedor h2{
+    margin:0 0 30px;
+    padding:0;
+    font-size: 30px;
+    font-family:Georgia;
+    color:#fff;
+    text-align: center;
+}
+.contenedor .elemento label{
+    color:#fff;
+    font-family:'Trebuchet MS';
+}
+.contenedor .elemento input{
+    width:100%;
+    padding:10px 0;
+    color:#fff;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px; /*separa los elementos de tipo input*/
+    outline: none;
+}
+.contenedor .elemento input[type="submit"]{
+    background-color:#663399;
+    font-family:'Arial Narrow';
+    border:none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor:pointer; 
+    padding:15px;
+    margin-top: 20px;
+}
